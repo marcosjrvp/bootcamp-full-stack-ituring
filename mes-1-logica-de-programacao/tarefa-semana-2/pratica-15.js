@@ -5,9 +5,9 @@ function calcularImc(peso, altura) {
     return imc;
 }
 
-function verificarResultadoImc() {
+function verificarResultadoImc(peso, altura) {
 
-    let imc = calcularImc()
+    let imc = calcularImc(peso, altura);
     let resultado;
 
     if (imc < 18.5) {
