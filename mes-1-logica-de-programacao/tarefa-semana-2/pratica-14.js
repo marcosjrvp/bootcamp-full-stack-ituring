@@ -12,7 +12,7 @@ const calcularImc = (peso, altura) =>{
     }else if(imc <= 30){
 
         resultado = console.log(`Sobrepeso, seu IMC foi de ${imc.toFixed(2)}`);
-    }else{
+    }else if(imc > 30){
 
         resultado = console.log(`Obesidade, seu IMC foi de ${imc.toFixed(2)}`)
     }
