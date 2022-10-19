@@ -7,8 +7,8 @@ let lugarConhecer = 'EUA'
 
 
 
-console.log(typeof(nome) == 'string')
-console.log(typeof(email) == 'string')
-console.log(typeof(profissao) == 'string')
-console.log(typeof(idade) == 'string')
-console.log(typeof(lugarConhecer) == 'string')
+console.log(typeof(nome) === 'string')
+console.log(typeof(email) === 'string')
+console.log(typeof(profissao) === 'string')
+console.log(typeof(idade) === 'string')
+console.log(typeof(lugarConhecer) === 'string')
