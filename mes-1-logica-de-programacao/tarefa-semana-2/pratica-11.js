@@ -1,30 +1,30 @@
 const receberCor = (cor) => {
-
-    if(cor == 'vermelha'){
-       resultado = console.log(`A cor digitada foi ${cor} -> "rgb(255,0,0)"`);
-       return resultado;
-    }else if(cor == 'laranja'){
-        resultado = console.log(`A cor digitada foi ${cor} -> "rgb(255,128,0)"`);
-        return resultado;
-    }else if(cor == 'amarela'){
-        resultado = console.log(`A cor digitada foi ${cor} -> "rgb(255,255,0)"`);
-        return resultado;
-    }else if(cor == 'verde'){
-        resultado = console.log(`A cor digitada foi ${cor} -> "rgb( ,255, )"`);
-        return resultado;
-    }else if(cor == 'azul claro'){
-        resultado = console.log(`A cor digitada foi ${cor} -> "rgb(0,255,255)"`);
-        return resultado;
-    }else if(cor == 'azul marinho'){
-        resultado = console.log(`cor digitada foi ${cor} -> "rgb(0,0,255)"`);
-        return resultado;
-    }else if(cor == 'rosa'){
-       resultado = console.log(`A cor digitada foi ${cor} -> "rgb(255,0,255)"`);
-       return resultado;
-    }else{
-        resultado = console.log(`Você não digitou as cores cadastradas, por isso será exibido o valor padrão : "rgb(255,255,0)" `);
-        return resultado;
+       
+    switch (cor) {
+        case "vermelha":
+            return "rgb(255,0,0)"
+        case "laranja":
+            return "rgb(255,128,0)"
+        case "amarela":
+            return "rgb(255,255,0)"
+        case "verde":
+            return "rgb(0,255,0)"
+        case "azul claro":
+            return "rgb(0,255,255)"
+        case "azul marinho":
+            return "rgb(0,0,255)"
+        case "rosa":
+            return "rgb(255,0,255)"
+        default:
+            return "rgb(255,255,255)"
     }
 }
 
-receberCor()
+console.log(receberCor('vermelha'));
+console.log(receberCor('laranja'));
+console.log(receberCor('amarela'));
+console.log(receberCor('verde'));
+console.log(receberCor('azul claro'));
+console.log(receberCor('azul marinho'));
+console.log(receberCor('rosa'));
+console.log(receberCor('preto'));
