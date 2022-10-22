@@ -24,4 +24,7 @@ function obterMaior(numero1, numero2, numero3) {
     }
 }
 
-console.log(obterMaior())
+obterMaior(1,2,3);
+obterMaior(1,1,1);
+obterMaior(4,2,3);
+obterMaior(2,5,3);
