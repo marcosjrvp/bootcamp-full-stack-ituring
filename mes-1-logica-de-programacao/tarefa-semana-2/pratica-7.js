@@ -12,4 +12,7 @@ function traduzirHelloWorld(idioma) {
 
 }
 
-console.log(traduzirHelloWorld())
+traduzirHelloWorld('es');
+traduzirHelloWorld('en');
+traduzirHelloWorld('pt');
+traduzirHelloWorld();
