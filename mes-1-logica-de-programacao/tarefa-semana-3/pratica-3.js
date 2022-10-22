@@ -26,4 +26,6 @@ const exibirPrimos = function (numero) {
     }
 }
 
-exibirPrimos();
+exibirPrimos(5);
+exibirPrimos(9);
+exibirPrimos(7);
