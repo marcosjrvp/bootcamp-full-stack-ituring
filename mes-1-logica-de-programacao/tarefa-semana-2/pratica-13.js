@@ -8,4 +8,5 @@ const verificarMenor = function(num1 , num2){
     return resultado;
 }
 
-verificarMenor()
+verificarMenor(4,5);
+verificarMenor(8,2);
