@@ -1,29 +1,36 @@
 function recebaNumeros(num){
 
     if(num == 1){
-        resultado = console.log('Segunda-feira');
-        return resultado;
+        return'Segunda-feira';
+        
     }else if(num == 2){
-        resultado = console.log('Terça-feira');
-        return resultado;
+        return 'Terça-feira';
+        
     }else if(num == 3){
-        resultado = console.log('Quarta-feira');
-        return resultado;
+        return'Quarta-feira';
+        
     }else if(num == 4){
-        resultado = console.log('Quinta-feira');
-        return resultado;
+        return 'Quinta-feira';
+        
     }else if(num == 5){
-        resultado = console.log('Sexta-feira');
-        return resultado;
+        return 'Sexta-feira';
+        
     }else if(num == 6){
-        resultado = console.log('Sábado')
-        return resultado;
+        return 'Sábado';
+        
     }else if(num == 7){
-        resultado = console.log('Domingo')
-        return resultado;
+        return 'Domingo';
+        
     }else{
-        resultado = console.log(`O número${num} não é válido para o dia da semana`)
+        console.log(`O número ${num} não é válido para o dia da semana`)
     }
 }
 
-recebaNumeros()
+console.log(recebaNumeros(1));
+console.log(recebaNumeros(2));
+console.log(recebaNumeros(3));
+console.log(recebaNumeros(4));
+console.log(recebaNumeros(5));
+console.log(recebaNumeros(6));
+console.log(recebaNumeros(7));
+console.log(recebaNumeros(8));
