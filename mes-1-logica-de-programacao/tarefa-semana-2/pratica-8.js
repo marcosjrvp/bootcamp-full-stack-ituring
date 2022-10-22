@@ -1,6 +1,6 @@
 const verificarPar = (numero) => {
 
-    ehPar = numero % 2 === 0;
+    const ehPar = numero % 2 === 0;
 
     if(ehPar){
 
@@ -12,4 +12,5 @@ const verificarPar = (numero) => {
     
 }
 
-console.log(verificarPar(1));
+verificarPar(1);
+verificarPar(28);
