@@ -20,4 +20,7 @@ const calcularImc = (peso, altura) =>{
     return resultado;
 }
 
-calcularImc()
+calcularImc(70, 1.80);
+calcularImc(100, 1.50);
+calcularImc(50, 1.90);
+calcularImc(92, 1.90);
