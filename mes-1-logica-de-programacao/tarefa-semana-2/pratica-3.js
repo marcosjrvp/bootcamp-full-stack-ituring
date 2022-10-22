@@ -4,7 +4,7 @@ function exibirNumeroAleatorio(){
     const max = 10000;
     
   
-    const numero = Math.floor(Math.random() * (max - min) + min); 
+    const numero = Math.floor(Math.random() * (max - min + 1) + min); 
 
     return numero;
 }
