@@ -1,4 +1,22 @@
-const listaPessoas = ["Anderson Luz", "Fabio Vechia", "Claudia Lopes", "Rafael Alves", "Maria Mansano", "Jairo Ferreira", "Vitor Ribeiro"];
+const listaPessoas = ["Anderson Luz", "Fabio Vechia", "Claudia Lopes", "Rafael Alves", "Maria Mansano" , "Jairo Ferreira" , "Vitor Ribeiro"];
+
+
+function dividirLista(listaPessoas){
+
+    let grupo1 = listaPessoas.slice(0,2);
+    let grupo2 = listaPessoas.slice(2,4);
+    let grupo3 = listaPessoas.slice(4,7);
+
+    
+
+    console.log(`Grupo 1: ${grupo1}`);
+    console.log(`Grupo 2 : ${grupo2}`);
+    console.log(`Grupo 3 : ${grupo3}`);
+}
+
+dividirLista(listaPessoas);
+
+/* Outra solução :
 
 function exibirPessoas(listaPessoas){
 
@@ -9,4 +27,4 @@ function exibirPessoas(listaPessoas){
 }
 
 
-exibirPessoas(listaPessoas);
+exibirPessoas(listaPessoas);*/
