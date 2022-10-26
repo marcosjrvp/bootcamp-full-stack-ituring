@@ -34,6 +34,8 @@ function exibirDepositosERetiradas(listaNumeros){
     console.log(`O total de retiradas foram de R$ ${totalRetiradas*-1}`);
 }
 
+//
+
 exibirDepositosERetiradas(listaNumeros);
 calcularSaldoFinal(listaNumeros);
     
