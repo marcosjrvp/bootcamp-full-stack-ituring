@@ -9,7 +9,12 @@ function calcularSaldoFinal(listaNumeros){
     for(let i=0; i, i<listaNumeros.length; i++){
         saldoFinal += listaNumeros[i];        
     }
+
+    if(saldoFinal > 0){
     console.log(`O saldo final da sua conta foi de positivo no valor de R$ ${saldoFinal}`);
+    }else{
+        console.log(`O saldo final da sua conta foi negativo no valor de R$ ${saldoFinal}`);
+    }
 }
 
 function exibirDepositosERetiradas(listaNumeros){

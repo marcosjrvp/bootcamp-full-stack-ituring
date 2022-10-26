@@ -1,9 +1,10 @@
 const listaSerie = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"];
 
-let serieEncontradas = [];
+
 
 function pesquisarSeries(listaSerie, termoPesquisado) {
 
+    let serieEncontradas = [];
     let mensagem = 'Favor digitar algum termo para ser pequisado'
 
     if( termoPesquisado === ""){
@@ -24,3 +25,4 @@ function pesquisarSeries(listaSerie, termoPesquisado) {
 }
 
 console.log(pesquisarSeries(listaSerie, "Th"));
+console.log(pesquisarSeries(listaSerie, "ubs"));

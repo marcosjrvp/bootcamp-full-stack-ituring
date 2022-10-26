@@ -24,13 +24,13 @@ function verificarQuantidadeVotos(listaVotos){
     console.log(`Espanha : ${totalVotosEspanha} votos`);
     console.log(`Portugal : ${totalVotosPortugal} votos`);
 
-    if(totalVotosBrasil>totalVotosArgentina && totalVotosBrasil > totalVotosEspanha && totalVotosBrasil > totalVotosPortugal){
+    if(totalVotosBrasil>=totalVotosArgentina && totalVotosBrasil >= totalVotosEspanha && totalVotosBrasil >= totalVotosPortugal){
         console.log(`Resultado :        
-        Brasil é o preferido para ganhar a Copa do Mundo`);
-    }else if(totalVotosArgentina > totalVotosBrasil && totalVotosArgentina > totalVotosEspanha && totalVotosArgentina > totalVotosPortugal){
+        Brasil é o preferido para ganhar a Copa do Mundo!`);
+    }else if(totalVotosArgentina >= totalVotosBrasil && totalVotosArgentina >= totalVotosEspanha && totalVotosArgentina >= totalVotosPortugal){
         console.log(`Resultado :
         Argentina é a preferida para ganhar a Copa do Mundo!`);
-    }else if(totalVotosEspanha > totalVotosBrasil && totalVotosEspanha > totalVotosArgentina && totalVotosEspanha > totalVotosPortugal){
+    }else if(totalVotosEspanha >= totalVotosBrasil && totalVotosEspanha >= totalVotosArgentina && totalVotosEspanha >= totalVotosPortugal){
         console.log(`Resultado :
         Espanha é a preferida para ganhar a Copa do Mundo!`);
     }else{
