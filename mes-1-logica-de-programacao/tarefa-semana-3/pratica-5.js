@@ -4,10 +4,11 @@ const listaSerie = ["Breaking Bad" , "Game of Thrones" , "Stranger Things" , "Ch
 
     for(let i=0; i<listaSerie.length; i++){
         if(listaSerie[i] === serie){
-            return  i;
+            return  i;           
 
         }
-    }
+        
+    }return undefined;
 
 }
 
