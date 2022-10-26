@@ -19,7 +19,7 @@ function dividirLista(listaPessoas, corte) {
 
 console.log(dividirLista(listaPessoas, 2));
 
-//
+
 
 
 
