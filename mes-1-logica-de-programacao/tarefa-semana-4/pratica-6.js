@@ -8,7 +8,7 @@ let filme = {
 
 const exibirInformacao = (filme => {
 
-    console.log(`O ${filme.titulo} que estreou em ${filme.anoDePublicacao} e tem a avaliação de ${filme.notaDeAvaliacao} pelo IMDB`);
+    console.log(`O filme ${filme.titulo} que estreou em ${filme.anoDePublicacao} e tem a avaliação de ${filme.notaDeAvaliacao} pelo IMDB`);
 } );
 
 exibirInformacao(filme);
