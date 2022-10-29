@@ -20,14 +20,14 @@ let filmes = [{
     genero: ["Biografia", "Drama" , "Suspense" , "Guerra"]
   }];
 
-  function exibirInformacao(filmes){
+    function exibirInformacao(filmes){
 
       const listaFilmes = filmes.forEach(item =>{
 
         console.log(`${item.titulo} (Nota: ${item.notaAvaliacao})`);
         console.log(`. Duração : ${item.duracao}`);
         console.log(`. Ano de publicação : ${item.anoPublicacao}`);
-        console.log(`. Gênero: ${item.genero}`);
+        console.log(`. Gênero: ${item.genero.slice(0 ,-1).join(' , ')+ ' e ' + item.genero.slice(-1)}`);
         console.log();
       });
       
@@ -35,3 +35,5 @@ let filmes = [{
   }
 
   exibirInformacao(filmes);
+
+  
